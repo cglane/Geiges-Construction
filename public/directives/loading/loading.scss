@@ -24,9 +24,7 @@ loading-directive{
   }
 
 }
-.four a{
-  opacity: 0;
-}
+
 .kraken p{
   width: 200px;
   height: 200px;
@@ -50,6 +48,9 @@ loading-directive{
 
   }
 }
+#continue-link{
+transition:2s;
+}
 .bus-icon{
   margin-top: 20px;
   margin-left: 10px;
@@ -62,16 +63,21 @@ loading-directive{
     margin-bottom: -20px;
   }
   .left{
-    margin-left: -10px;
+    margin-left: 26px;
     transform: rotate(-45deg);
   }
   .right{
     transform: rotate(45deg);
   }
   h1{
-    font-size: 30px;
     color:white;
     opacity: .5;
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
     // border-left: solid white 2px;
     // border-right: solid white 2px;
   }
@@ -99,4 +105,7 @@ loading-directive{
     -webkit-animation-duration:1s;
     -moz-animation-duration:1s;
     animation-duration:1s;
+}
+.expand-scale{
+  transform: scale(1.5);
 }

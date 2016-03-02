@@ -21,9 +21,6 @@ loading-directive {
     border: solid red 1px;
     padding: 10px; }
 
-.four a {
-  opacity: 0; }
-
 .kraken p {
   width: 200px;
   height: 200px;
@@ -45,6 +42,9 @@ loading-directive {
   .one p:hover {
     transform: rotate(45deg); }
 
+#continue-link {
+  transition: 2s; }
+
 .bus-icon {
   margin-top: 20px;
   margin-left: 10px;
@@ -56,14 +56,19 @@ loading-directive {
     border-top: solid white 3px;
     margin-bottom: -20px; }
   .bus-icon .left {
-    margin-left: -10px;
+    margin-left: 26px;
     transform: rotate(-45deg); }
   .bus-icon .right {
     transform: rotate(45deg); }
   .bus-icon h1 {
-    font-size: 30px;
     color: white;
-    opacity: .5; }
+    opacity: .5;
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px; }
 
 .anchor-noshow {
   opacity: 0;
@@ -108,3 +113,6 @@ loading-directive {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   animation-duration: 1s; }
+
+.expand-scale {
+  transform: scale(1.5); }

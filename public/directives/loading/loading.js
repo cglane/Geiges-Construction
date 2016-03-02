@@ -48,18 +48,18 @@
             //animate page
             var runAnimation = function(){
               $('.one p').stop(true,false).animate({
-                'height':'300px'
+                'height':'400px'
               },0);
               $('.one p').stop(true,false).animate({
                 'width':'30%'
               },1500);
-              typeText('Geiges Constuction Company',"#one",100)
+              typeText('Geiges Constuction Company, LLC',"#one",100)
               // set first animation
               setTimeout(function () {
                 $('.page-wrapper').stop(true,false).animate({
                   'top':'-='+screenHeight
                 },500);
-                typeText('He likes to Build',"#two",100)
+                typeText('Residential Renovations',"#two",100)
 
               }, 4000);
               //second animation
@@ -67,7 +67,7 @@
                 $('.page-wrapper').stop(true,false).animate({
                   'top':'-='+screenHeight
                 },500);
-                typeText('He likes to Build',"#three",100)
+                typeText('Historic Renovations',"#three",100)
 
               }, 8000);
               //third animation
@@ -75,10 +75,11 @@
                 $('.page-wrapper').stop(true,false).animate({
                   'top':'-='+screenHeight
                 },500);
-                $('.four a').stop(true,false).animate({
-                  'opacity':'1'
-                },500);
-                typeText('He likes to Build',"#four",100);
+                  $('#continue-link').toggleClass('expand-scale');
+                  setTimeout(function () {
+                    $('#continue-link').removeClass('expand-scale')
+                  }, 2000);
+                typeText('Male Model.  Idiot',"#four",100);
               }, 12000);
             }
             runAnimation();
