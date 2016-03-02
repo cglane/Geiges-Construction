@@ -1,0 +1,13 @@
+body {
+  transition: 1s;
+  padding: 0; }
+
+.page-wrapper {
+  padding: 0;
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  margin: 0; }
+  .page-wrapper p {
+    font-size: 100px;
+    width: 200px; }

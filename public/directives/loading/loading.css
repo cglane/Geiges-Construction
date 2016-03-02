@@ -1,0 +1,110 @@
+loading-directive {
+  padding: 0;
+  margin: 0; }
+
+.kraken {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  margin-bottom: -20px;
+  background-color: black;
+  transition: 1s; }
+  .kraken a {
+    float: right;
+    margin-top: 150px;
+    margin-right: 10%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white; }
+  .kraken span {
+    border: solid red 1px;
+    padding: 10px; }
+
+.four a {
+  opacity: 0; }
+
+.kraken p {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  font-size: 3px;
+  font-size: 50px !important;
+  margin-top: 150px;
+  border-left: solid red 20px;
+  padding-left: 20px; }
+
+.one p {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  margin: auto;
+  border: solid red 20px;
+  font-size: 50px !important;
+  transition: 1s; }
+  .one p:hover {
+    transform: rotate(45deg); }
+
+.bus-icon {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px; }
+  .bus-icon hr {
+    width: 15px;
+    display: inline-block;
+    border-top: solid white 3px;
+    margin-bottom: -20px; }
+  .bus-icon .left {
+    margin-left: -10px;
+    transform: rotate(-45deg); }
+  .bus-icon .right {
+    transform: rotate(45deg); }
+  .bus-icon h1 {
+    font-size: 30px;
+    color: white;
+    opacity: .5; }
+
+.anchor-noshow {
+  opacity: 0;
+  margin-left: -10px;
+  transition: 1s; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9;
+    /* IE9 only */ }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9;
+    /* IE9 only */ }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9;
+    /* IE9 only */ }
+  to {
+    opacity: 1; } }
+
+.fadeIn {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s; }
