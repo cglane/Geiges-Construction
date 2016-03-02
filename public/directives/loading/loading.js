@@ -42,9 +42,6 @@
               }, time);
             }
 
-            scope.showAnchor = function(){
-              console.log('hello')
-            }
             //animate page
             var runAnimation = function(){
               $('.one p').stop(true,false).animate({
