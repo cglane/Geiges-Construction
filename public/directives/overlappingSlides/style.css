@@ -1,0 +1,14 @@
+.overlapping-slide-section{
+  width: 100%;
+  height: 500px;
+  transition: 1s;
+}
+.overlapping-slide-section img{
+  transition: 1s ease-in;
+  position: absolute;
+}
+.overlapping-slide-section img:hover{
+  transition: 1s;
+  margin-left: -20px;
+  z-index: 5;
+}
